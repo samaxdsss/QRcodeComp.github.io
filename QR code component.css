@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Outfit;
+    src: url("Outfit-VariableFont_wght.ttf") format("woff");
+}
+@media only screen and (min-width: 992px) {
+    body {
+        font-family: Outfit;
+        background-color: #D5E1EF;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .qr {
+        margin: 7% auto;
+        background-color: white;
+        height: 39em;
+        width: 25em;
+        border-radius: 1em;
+    }
+    #Qr_image {
+        position: relative;
+        margin: 4% auto;
+        width: 90%;
+        border-radius: 1em;
+    }
+
+    .qr__seccionCentral {
+        margin-left: 9%;
+        margin-right:9%;
+        margin-top: -2%;
+    }
+    .qr__seccionCentral-txt {
+        font-size: 170%;
+        color: hsl(218, 44%, 22%);
+    }
+    .qr__footer {
+        margin-left: 9%;
+        margin-right:9%;
+    }
+
+    .qr__footer-text {
+        font-size: 120%;
+        color:#A9AEB2;
+    }
+
+}
+
+
